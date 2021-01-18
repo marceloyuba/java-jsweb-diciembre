@@ -14,7 +14,7 @@ public class MainAuto{
     clioRojo.frenar();
     clioRojo.acelerar(5);
     }
-    System.out.println(clioRojo.getvelocidadActual());
+    System.out.println(clioRojo.getVelocidadActual());
 	
     clioRojo.apagar();
     

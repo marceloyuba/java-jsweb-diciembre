@@ -3,16 +3,91 @@ package ar.com.educacionit.clase2;
 public class Auto {
 
 	//atributos
-	int anio;
-	String color;
-	long chasis;
-	String patente;
-	boolean encendido;
-	float velocidadActual;
-	float velocidadMaxima;
-	boolean puedaAcelerar;
-	float combustible;
-	float litros;
+	private int anio;
+	public int getAnio() {
+		return anio;
+	}
+
+	public void setAnio(int anio) {
+		this.anio = anio;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public long getChasis() {
+		return chasis;
+	}
+
+	public void setChasis(long chasis) {
+		this.chasis = chasis;
+	}
+
+	public String getPatente() {
+		return patente;
+	}
+
+	public void setPatente(String patente) {
+		this.patente = patente;
+	}
+
+	public float getVelocidadActual() {
+		return velocidadActual;
+	}
+
+	public void setVelocidadActual(float velocidadActual) {
+		this.velocidadActual = velocidadActual;
+	}
+
+	public float getVelocidadMaxima() {
+		return velocidadMaxima;
+	}
+
+	public void setVelocidadMaxima(float velocidadMaxima) {
+		this.velocidadMaxima = velocidadMaxima;
+	}
+
+	public boolean isPuedaAcelerar() {
+		return puedaAcelerar;
+	}
+
+	public void setPuedaAcelerar(boolean puedaAcelerar) {
+		this.puedaAcelerar = puedaAcelerar;
+	}
+
+	public float getCombustible() {
+		return combustible;
+	}
+
+	public void setCombustible(float combustible) {
+		this.combustible = combustible;
+	}
+
+	public float getLitros() {
+		return litros;
+	}
+
+	public void setLitros(float litros) {
+		this.litros = litros;
+	}
+
+	public void setEncendido(boolean encendido) {
+		this.encendido = encendido;
+	}
+	private String color;
+	private long chasis;
+	private String patente;
+	private boolean encendido;
+	private float velocidadActual;
+	private float velocidadMaxima;
+	private boolean puedaAcelerar;
+	private float combustible;
+	private float litros;
 	
 	//defecto
 	
